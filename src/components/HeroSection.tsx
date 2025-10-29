@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -22,17 +23,29 @@ export default function HeroSection() {
       </p>
 
       {/* Profile image with hidden hover frame */}
-      <div className="mt-12 mb-6 flex justify-center">
+      <div className="mt-14 mb-8 flex justify-center">
         <div className="group relative">
           {/* Hidden background frame */}
-          <div className="border-slateblue absolute inset-0 translate-x-2 translate-y-2 scale-95 rounded-md border-2 opacity-0 transition-all duration-300 ease-out group-hover:translate-x-3 group-hover:translate-y-3 group-hover:scale-100 group-hover:opacity-100"></div>
+          <div
+            className="border-slateblue absolute inset-0 translate-x-2 translate-y-2 scale-95 rounded-md border-2 
+            opacity-0 transition-all duration-300 ease-out 
+            group-hover:translate-x-3 group-hover:translate-y-3 group-hover:scale-100 group-hover:opacity-100"
+          ></div>
 
-          {/* Image */}
-          <div className="border-slateblue relative h-56 w-56 cursor-pointer overflow-hidden rounded-md border-1 grayscale filter transition-all duration-300 ease-out group-hover:-translate-x-2 group-hover:-translate-y-2 hover:grayscale-0 sm:h-64 sm:w-64 md:h-72 md:w-72">
-            <img
+          {/* Image container */}
+          <div
+            className="border-slateblue relative h-56 w-56 cursor-pointer overflow-hidden rounded-md border-1 grayscale 
+            filter transition-all duration-300 ease-out 
+            group-hover:-translate-x-2 group-hover:-translate-y-2 hover:grayscale-0 
+            sm:h-64 sm:w-64 md:h-72 md:w-72"
+          >
+            <Image
               src="/profile.jpeg"
               alt="Kyle Parks portrait"
-              className="absolute inset-0 w-full object-cover"
+              width={288} // exact pixel width (matches md:w-72)
+              height={288}
+              className="object-cover rounded-md"
+              priority
             />
           </div>
         </div>
