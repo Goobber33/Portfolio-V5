@@ -2,7 +2,6 @@
 import NavBar from '@/components/NavBar';
 import FooterSection from '@/components/Footer';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
 
 export default function ResumePage() {
   const experiences = [

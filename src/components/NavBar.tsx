@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ export default function NavBar() {
         </button>
       </div>
 
-      {/* Centered horizontal menu when opened */}
+      {/* Collapsible Menu */}
       <div
         className={`overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
@@ -41,31 +42,31 @@ export default function NavBar() {
       >
         <ul className="font-heading flex flex-col items-center justify-center space-y-3 py-4 text-base font-bold">
           <li>
-            <a
+            <Link
               href="/"
               className="text-slateblue hover:text-periwinkle transition"
               onClick={() => setIsOpen(false)}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="/projects"
               className="text-slateblue hover:text-periwinkle transition"
               onClick={() => setIsOpen(false)}
             >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#contact"
               className="text-slateblue hover:text-periwinkle transition"
               onClick={() => setIsOpen(false)}
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
