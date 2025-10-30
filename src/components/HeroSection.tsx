@@ -6,33 +6,36 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   const [isActive, setIsActive] = useState(false);
-
-  const handleTap = () => {
-    setIsActive((prev) => !prev);
-  };
+  const handleTap = () => setIsActive((prev) => !prev);
 
   return (
-    <section className="animate-fadeIn mt-4 w-full max-w-3xl space-y-6 px-2 text-center sm:px-4">
+    <section className="animate-fadeIn w-full max-w-3xl space-y-6 px-4 text-center sm:px-6 -mt-6 sm:-mt-10">
+      {/* Intro line */}
+      <p className="font-mono text-sm tracking-widest text-periwinkle sm:text-base">
+        Hi, my name is
+      </p>
+
       {/* Name */}
       <h1 className="text-slateblue font-heading text-5xl font-extrabold tracking-tight drop-shadow-sm sm:text-6xl md:text-7xl">
-        Kyle Parks
+        Kyle Parks<span className="text-periwinkle">.</span>
       </h1>
 
-      {/* Title */}
-      <h2 className="text-foreground/90 font-heading text-xl font-medium sm:text-2xl">
-        Software Engineer
+      {/* Headline / Goal */}
+      <h2 className="text-slateblue/90 font-heading text-2xl font-semibold sm:text-3xl md:text-4xl">
+        I’m a <span className="text-periwinkle">Software Engineer</span> passionate about
+        building meaningful and reliable software.
       </h2>
 
       {/* Description */}
       <p className="text-foreground/80 font-body mx-auto max-w-2xl text-base leading-relaxed sm:text-lg">
-        I’m a Computer Science student at Arizona State University and a member of Barrett, The
-        Honors College. I graduated from the University of Washington’s Full Stack Web Development
-        Bootcamp and worked in IT for four years before pursuing my degree. My goal is to become a
-        software engineer and build reliable, meaningful software that makes a real impact.
+        I’m currently studying Computer Science at Arizona State University and am a proud member of
+        Barrett, The Honors College. I graduated from the University of Washington’s Full Stack Web
+        Development Bootcamp and worked in IT for four years before pursuing my degree. My goal is
+        to engineer software that improves lives and pushes technology forward.
       </p>
 
       {/* Profile image with hover/tap frame */}
-      <div className="mt-14 mb-8 flex justify-center">
+      <div className="mt-10 mb-6 flex justify-center">
         <div
           className={`group relative ${isActive ? 'hovered' : ''}`}
           onClick={handleTap}
