@@ -1,7 +1,16 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function HeroSection() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleTap = () => {
+    setIsActive((prev) => !prev);
+  };
+
   return (
     <section className="animate-fadeIn mt-4 w-full max-w-3xl space-y-6 px-2 text-center sm:px-4">
       {/* Name */}
@@ -22,22 +31,27 @@ export default function HeroSection() {
         software engineer and build reliable, meaningful software that makes a real impact.
       </p>
 
-      {/* Profile image with hidden hover frame */}
+      {/* Profile image with hover/tap frame */}
       <div className="mt-14 mb-8 flex justify-center">
-        <div className="group relative">
+        <div
+          className={`group relative ${isActive ? 'hovered' : ''}`}
+          onClick={handleTap}
+        >
           {/* Hidden background frame */}
           <div
-            className="border-slateblue absolute inset-0 translate-x-2 translate-y-2 scale-95 rounded-md border-2 
+            className={`border-slateblue absolute inset-0 translate-x-2 translate-y-2 scale-95 rounded-md border-2 
             opacity-0 transition-all duration-300 ease-out 
-            group-hover:translate-x-3 group-hover:translate-y-3 group-hover:scale-100 group-hover:opacity-100"
+            group-hover:translate-x-3 group-hover:translate-y-3 group-hover:scale-100 group-hover:opacity-100
+            ${isActive ? 'translate-x-3 translate-y-3 scale-100 opacity-100' : ''}`}
           ></div>
 
           {/* Image container */}
           <div
-            className="border-slateblue relative h-56 w-56 cursor-pointer overflow-hidden rounded-md border-1 grayscale 
+            className={`border-slateblue relative h-56 w-56 cursor-pointer overflow-hidden rounded-md border-1 grayscale 
             filter transition-all duration-300 ease-out 
             group-hover:-translate-x-2 group-hover:-translate-y-2 hover:grayscale-0 
-            sm:h-64 sm:w-64 md:h-72 md:w-72"
+            sm:h-64 sm:w-64 md:h-72 md:w-72
+            ${isActive ? '-translate-x-2 -translate-y-2 grayscale-0' : ''}`}
           >
             <Image
               src="/profile.JPEG"
