@@ -2,7 +2,7 @@ import { Github, Linkedin, FileText } from 'lucide-react';
 
 export default function FooterSection() {
   return (
-    <footer className="mt-auto w-full pb-8 sm:pb-4"> {/* 👈 Added more bottom padding for mobile */}
+    <footer className="mt-auto w-full pb-8 sm:pb-4">
       <div className="mx-auto flex w-full max-w-screen-xl flex-col items-center justify-center gap-4 p-4 text-center">
         <span className="text-sm text-gray-500 dark:text-gray-400">© 2025 Kyle Parks</span>
 
