@@ -42,7 +42,7 @@ export default function HeroSection() {
             <Image
               src="/profile.JPEG"
               alt="Kyle Parks portrait"
-              width={288} // exact pixel width (matches md:w-72)
+              width={288}
               height={288}
               className="object-cover rounded-md"
               priority

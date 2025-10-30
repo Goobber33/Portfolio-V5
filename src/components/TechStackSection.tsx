@@ -39,9 +39,9 @@ export default function TechStackSection() {
   ];
 
   return (
-    <section className="animate-fadeIn bg-aliceblue mt-20 w-full max-w-3xl rounded-md px-2 py-8 text-center shadow-sm select-none sm:px-4">
+    <section className="animate-fadeIn bg-aliceblue mt-20 w-full max-w-3xl rounded-md px-2 py-2 text-center shadow-sm select-none sm:px-4">
       {/* Section Title */}
-      <h3 className="text-slateblue font-heading mb-8 text-2xl font-bold sm:text-3xl">
+      <h3 className="text-slateblue font-heading mb-4 mt-2 text-2xl font-bold sm:text-3xl">
         My Tech Stack
       </h3>
 
