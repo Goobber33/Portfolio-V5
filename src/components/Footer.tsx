@@ -2,7 +2,7 @@ import { Github, Linkedin, FileText } from 'lucide-react';
 
 export default function FooterSection() {
   return (
-    <footer className="mt-auto w-full pb-[calc(env(safe-area-inset-bottom)+2rem)] sm:pb-4">
+    <footer className="mt-auto w-full pb-[calc(env(safe-area-inset-bottom)+0.5rem)] sm:pb-1">
       <div className="mx-auto flex w-full max-w-screen-xl flex-col items-center justify-center gap-4 p-2 text-center">
         <span className="text-sm text-gray-500 dark:text-gray-400">© 2025 Kyle Parks</span>
 
