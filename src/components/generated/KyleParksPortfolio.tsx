@@ -39,171 +39,171 @@ const technologies = [{
   icon: '⚛️',
   color: '#61DAFB',
   category: 'Frontend',
-  mpid: "646e5d35-18e9-4aae-bf8c-ffc0a7221118"
+  mpid: "54bfa9bf-0fd6-42c2-ab97-5b7440bec820"
 }, {
   name: 'TypeScript',
   icon: '📘',
   color: '#3178C6',
   category: 'Frontend',
-  mpid: "26ad7a02-d8e5-45ad-bcc1-b78690e30ded"
+  mpid: "4ea7ffde-2588-4d43-ae4e-af5ac81bd534"
 }, {
   name: 'JavaScript',
   icon: '🟨',
   color: '#F7DF1E',
   category: 'Frontend',
-  mpid: "84baf5f7-a061-4250-97fb-d15055eb367d"
+  mpid: "5f958e69-0d57-44d0-b9b1-fae731830b5e"
 }, {
   name: 'HTML',
   icon: '🌐',
   color: '#E34F26',
   category: 'Frontend',
-  mpid: "6987dc38-714e-475b-8028-f17263a83031"
+  mpid: "5db1e4f5-5d56-4ab3-ab3e-e6f2f951586d"
 }, {
   name: 'CSS',
   icon: '🎨',
   color: '#1572B6',
   category: 'Frontend',
-  mpid: "8fd0f311-1af9-46d0-9128-e104c0cb6709"
+  mpid: "7a49a54a-1c81-4e8a-93c5-c2cdb5d418c6"
 }, {
   name: 'Tailwind',
   icon: '💨',
   color: '#06B6D4',
   category: 'Frontend',
-  mpid: "548d36a7-a83e-4419-9efc-4331e48b1693"
+  mpid: "a172cf01-2d6f-4993-bb05-62980c7a707f"
 }, {
   name: 'Next.js',
   icon: '▲',
   color: '#000000',
   category: 'Frontend',
-  mpid: "5fac88a8-a9c9-441b-b15d-94a046242499"
+  mpid: "1064dc8e-4f90-4412-be10-2b8e811b8576"
 }, {
   name: 'Node.js',
   icon: '🟢',
   color: '#339933',
   category: 'Backend',
-  mpid: "ba86d605-e433-4e31-8f4f-d25cb013c911"
+  mpid: "6cec5000-e462-4906-95ed-507f22341e4c"
 }, {
   name: 'Express',
   icon: '🚂',
   color: '#000000',
   category: 'Backend',
-  mpid: "7d7bd025-fb75-4a5e-9fd8-57b0a2e2db74"
+  mpid: "ee3e0d26-74f5-41dd-b514-86b0090399a4"
 }, {
   name: 'GraphQL',
   icon: '◆',
   color: '#E10098',
   category: 'Backend',
-  mpid: "32381805-db97-40e8-9445-6a5581119bcb"
+  mpid: "d93da36e-23a2-4e98-a700-900dab717ef5"
 }, {
   name: 'REST API',
   icon: '🔗',
   color: '#8A4FFF',
   category: 'Backend',
-  mpid: "f337ff3d-aac7-445d-9902-f4bcbc9e4133"
+  mpid: "3daf2d4d-332b-4ded-8c20-2993e8d59e7f"
 }, {
   name: 'MongoDB',
   icon: '🍃',
   color: '#47A248',
   category: 'Database',
-  mpid: "0b2b335e-8cd6-4d62-8d41-9637890b7f6a"
+  mpid: "a1e1e7e8-dd74-4255-a237-e0842a376a3b"
 }, {
   name: 'PostgreSQL',
   icon: '🐘',
   color: '#4169E1',
   category: 'Database',
-  mpid: "79cb93e0-640f-4c6c-8f35-bded3aa41504"
+  mpid: "a3586a55-0213-4c7a-bc38-7d896976ff74"
 }, {
   name: 'Git',
   icon: '📦',
   color: '#F05032',
   category: 'Tools',
-  mpid: "1e844a00-9d83-48d2-8901-8a5ff49c552f"
+  mpid: "6a519ed5-9b49-4d7e-a71f-c9c8cddd46ed"
 }, {
   name: 'Docker',
   icon: '🐳',
   color: '#2496ED',
   category: 'Tools',
-  mpid: "f01af5c8-56de-4cdd-ac15-b8e05a44aa78"
+  mpid: "2e66213a-2ed4-45f7-ae17-68056a48819c"
 }, {
   name: 'AWS',
   icon: '☁️',
   color: '#FF9900',
   category: 'Tools',
-  mpid: "3fac713a-a5e7-40ec-9c8f-25dbb4eaea58"
+  mpid: "0654565b-8470-4dbc-bd83-f6b53d9f8bcd"
 }, {
   name: 'Webpack',
   icon: '📦',
   color: '#8DD6F9',
   category: 'Tools',
-  mpid: "e46be1d8-7016-4026-9512-b75cdb456c63"
+  mpid: "8c76bcf0-3c6b-4311-b573-ea5acb469bf7"
 }, {
   name: 'Vite',
   icon: '⚡',
   color: '#646CFF',
   category: 'Tools',
-  mpid: "8cc66c49-ede7-4aff-8524-19fcade6b073"
+  mpid: "6cbbb1a2-b2ac-454d-9a20-735465bd0a83"
 }, {
   name: 'Jest',
   icon: '🃏',
   color: '#C21325',
   category: 'Testing',
-  mpid: "24d5c505-b885-450a-b90b-48c49eae3422"
+  mpid: "e71b1c42-db5d-4c78-b9b8-d41c3105c146"
 }, {
   name: 'Testing Library',
   icon: '✅',
   color: '#4CAF50',
   category: 'Testing',
-  mpid: "948586e9-eb5c-41a0-8109-e769ba7cce08"
+  mpid: "4a4558e4-8a91-43db-a8ff-0b560dbbeb35"
 }] as any[];
 const skillCategories = [{
   name: 'Frontend Development',
   icon: '🎨',
   color: '#8A4FFF',
   skills: technologies.filter(t => t.category === 'Frontend'),
-  mpid: "31d35bb2-d72d-41cc-bbdf-05d83de17abd"
+  mpid: "c67cb8ce-420d-4e47-865f-7ff722ac5a90"
 }, {
   name: 'Backend Development',
   icon: '⚙️',
   color: '#9D5FFF',
   skills: technologies.filter(t => t.category === 'Backend'),
-  mpid: "c638a07e-1fc1-4f61-8ba7-523b05bb8c81"
+  mpid: "f6047ea4-4747-494c-9e2e-d14e1d9d5bd8"
 }, {
   name: 'Database & Storage',
   icon: '💾',
   color: '#C3BEF0',
   skills: technologies.filter(t => t.category === 'Database'),
-  mpid: "3b4709fc-f5ae-4f68-899a-4d2312f2c8fc"
+  mpid: "3002f809-f814-40ac-8982-c18ae97c2cd8"
 }, {
   name: 'Tools & DevOps',
   icon: '🛠️',
   color: '#8A4FFF',
   skills: technologies.filter(t => t.category === 'Tools'),
-  mpid: "4599845f-89e8-43f1-983e-2ea1261b8f3c"
+  mpid: "633beaf7-939a-42f0-9793-4760b4a45955"
 }, {
   name: 'Testing & Quality',
   icon: '✓',
   color: '#9D5FFF',
   skills: technologies.filter(t => t.category === 'Testing'),
-  mpid: "e727b904-bc92-46e3-84f2-f7e6f8a36aae"
+  mpid: "346968aa-68ae-4148-aa6d-09cd327a3e21"
 }] as any[];
 const projects = [{
   title: 'E-Commerce Platform',
   description: 'Full-stack e-commerce solution with cart management, user authentication, and payment integration.',
   tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
   link: '#',
-  mpid: "9bfd116c-fe7f-4bd0-ac59-9cfb87332155"
+  mpid: "c7bcb5ec-1b6b-4863-b481-3c4f4c90b2b2"
 }, {
   title: 'Task Management App',
   description: 'Collaborative task management application with real-time updates and team features.',
   tech: ['TypeScript', 'Express', 'PostgreSQL', 'Socket.io'],
   link: '#',
-  mpid: "135a3d6f-25e8-4ced-b389-b97b40991677"
+  mpid: "65e3de56-cb72-461c-8987-2d598a6859ea"
 }, {
   title: 'Weather Dashboard',
   description: 'Interactive weather application with data visualization and location-based forecasts.',
   tech: ['React', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
   link: '#',
-  mpid: "af2c92ea-6c44-4c5b-8e57-0ee1be739c74"
+  mpid: "e729c1b9-12a0-4553-9aab-f08039dd3e3c"
 }] as any[];
 const education = [{
   institution: 'Arizona State University',
@@ -211,14 +211,14 @@ const education = [{
   period: 'Present',
   details: 'Barrett, The Honors College',
   color: '#8A4FFF',
-  mpid: "76ce49e9-ebad-474d-8d6d-55b4bc20bbff"
+  mpid: "c3e6f23a-36b6-4748-b2c3-91c55f5064ea"
 }, {
   institution: 'University of Washington',
   degree: 'Full Stack Web Development Bootcamp',
   period: '2023',
   details: 'Intensive program covering modern web technologies',
   color: '#C3BEF0',
-  mpid: "4fa7147f-9993-4ae1-8bda-ec5cf13e427a"
+  mpid: "33af44fe-6d5b-41a3-89ef-b83ebc4f9b54"
 }] as any[];
 
 // Enhanced Floating decoration component with much more prominent motion
@@ -362,14 +362,14 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
   };
 
   // @return
-  return <SortableContainer dndKitId="dd509434-96fe-450e-8a71-7a45e9a244cf" containerType="regular" prevTag="div" className="min-h-screen w-full bg-white overflow-x-hidden" data-magicpath-id="2" data-magicpath-path="KyleParksPortfolio.tsx">
+  return <SortableContainer dndKitId="1fd314f0-dee9-45a7-8028-71ad8034c21c" containerType="regular" prevTag="div" className="min-h-screen w-full bg-white overflow-x-hidden" data-magicpath-id="2" data-magicpath-path="KyleParksPortfolio.tsx">
       {/* Enhanced Progress bar with gradient - Hidden on mobile */}
       <motion.div data-magicpath-motion-tag="motion.div" className="fixed top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#8A4FFF] via-[#9D5FFF] to-[#C3BEF0] origin-left z-50 shadow-lg shadow-[#8A4FFF]/30 hidden md:block" style={{
       scaleX: smoothProgress
     }} data-magicpath-id="3" data-magicpath-path="KyleParksPortfolio.tsx" />
 
       {/* Enhanced Navigation */}
-      <SortableContainer dndKitId="15936d3a-c48a-4cd7-9068-52ab10697c5f" containerType="regular" prevTag="motion.nav" className="fixed top-0 left-0 right-0 z-40 border-b border-[#E5ECF4]/80 backdrop-blur-xl shadow-sm" style={{
+      <SortableContainer dndKitId="acba6683-8c73-4a01-bf38-fa2bc470f490" containerType="regular" prevTag="motion.nav" className="fixed top-0 left-0 right-0 z-40 border-b border-[#E5ECF4]/80 backdrop-blur-xl shadow-sm" style={{
       backgroundColor: 'rgba(255, 255, 255, var(--nav-opacity))',
       '--nav-opacity': navOpacity
     } as any} initial={{
@@ -380,9 +380,9 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       duration: 0.8,
       ease: [0.22, 1, 0.36, 1]
     }} data-magicpath-id="4" data-magicpath-path="KyleParksPortfolio.tsx">
-        <SortableContainer dndKitId="2e0a38d4-a987-421c-9d16-1ee09d9b5f10" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="5" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="39e54853-bc23-4f6c-99b9-407fefe2704e" containerType="regular" prevTag="div" className="flex items-center justify-between h-16" data-magicpath-id="6" data-magicpath-path="KyleParksPortfolio.tsx">
-            <SortableContainer dndKitId="ffa70a01-6bcb-4d20-87d6-78f52d595a6f" containerType="regular" prevTag="motion.div" className="text-2xl font-bold cursor-pointer relative group" whileHover={{
+        <SortableContainer dndKitId="be8cc19d-bdae-4fec-989e-38094704a27c" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="5" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="0a0f34c8-1a58-43de-b8a0-340d1013de5f" containerType="regular" prevTag="div" className="flex items-center justify-between h-16" data-magicpath-id="6" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="b1a7eabc-97f0-46ff-ab23-b9a43e2f207f" containerType="regular" prevTag="motion.div" className="text-2xl font-bold cursor-pointer relative group" whileHover={{
             scale: 1.1,
             rotate: 5
           }} whileTap={{
@@ -403,7 +403,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             </SortableContainer>
 
             <div className="hidden md:flex items-center space-x-1" data-magicpath-id="10" data-magicpath-path="KyleParksPortfolio.tsx">
-              {['Home', 'About', 'Education', 'Skills', 'Projects', 'Contact'].map(item => <SortableContainer dndKitId="7eb25825-e840-4e2f-8b96-186c8d495c88" containerType="regular" prevTag="motion.button" key={item} onClick={() => scrollToSection(item.toLowerCase())} className="relative px-4 py-2 text-gray-700 hover:text-[#8A4FFF] transition-colors duration-200 cursor-pointer font-medium rounded-lg" whileHover={{
+              {['Home', 'About', 'Education', 'Skills', 'Projects', 'Contact'].map(item => <SortableContainer dndKitId="de3f59d2-e28a-4347-bfe3-33fc58b4b674" containerType="regular" prevTag="motion.button" key={item} onClick={() => scrollToSection(item.toLowerCase())} className="relative px-4 py-2 text-gray-700 hover:text-[#8A4FFF] transition-colors duration-200 cursor-pointer font-medium rounded-lg" whileHover={{
               scale: 1.08,
               y: -2
             }} whileTap={{
@@ -431,10 +431,10 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                 </SortableContainer>)}
             </div>
 
-            <SortableContainer dndKitId="27edac49-e1d3-4800-87cd-4dafce66bd2b" containerType="regular" prevTag="motion.button" className="md:hidden text-gray-700 p-2 rounded-lg hover:bg-[#EFFFFA] transition-colors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} whileTap={{
+            <SortableContainer dndKitId="1d6c6f9e-1f64-4113-a078-e47da984dc43" containerType="regular" prevTag="motion.button" className="md:hidden text-gray-700 p-2 rounded-lg hover:bg-[#EFFFFA] transition-colors" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} whileTap={{
             scale: 0.95
           }} data-magicpath-id="15" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="efb9ee58-0a2b-4a7c-bbbf-bd8e808ab21e" containerType="regular" prevTag="motion.div" animate={{
+              <SortableContainer dndKitId="5750bf97-29da-4451-b914-9d64cba4e82e" containerType="regular" prevTag="motion.div" animate={{
               rotate: mobileMenuOpen ? 90 : 0
             }} transition={{
               duration: 0.2
@@ -445,7 +445,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           </SortableContainer>
         </SortableContainer>
 
-        {mobileMenuOpen && <SortableContainer dndKitId="dabc2e16-8f38-4513-8de4-17881ea82776" containerType="regular" prevTag="motion.div" initial={{
+        {mobileMenuOpen && <SortableContainer dndKitId="5be04b6d-958a-4634-8c79-a4fb54c89b18" containerType="regular" prevTag="motion.div" initial={{
         opacity: 0,
         height: 0
       }} animate={{
@@ -472,7 +472,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       </SortableContainer>
 
       {/* Hero Section - DRAMATICALLY Enhanced */}
-      <SortableContainer dndKitId="4f4241e7-b29e-4dd0-ae61-38da74db246e" containerType="regular" prevTag="section" id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16" data-magicpath-id="22" data-magicpath-path="KyleParksPortfolio.tsx">
+      <SortableContainer dndKitId="b3ecdb43-86f2-4bcc-b7d4-6586f2b24555" containerType="regular" prevTag="section" id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16" data-magicpath-id="22" data-magicpath-path="KyleParksPortfolio.tsx">
         <div className="absolute inset-0 bg-gradient-to-br from-[#E5ECF4] via-white to-[#EFFFFA]" data-magicpath-id="23" data-magicpath-path="KyleParksPortfolio.tsx" />
 
         {!isMobile && <>
@@ -481,17 +481,17 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             <FloatingOrb delay={4} duration={12} size="medium" color="#E5ECF4" shouldReduceMotion={shouldReduceMotion} data-magicpath-id="26" data-magicpath-path="KyleParksPortfolio.tsx" />
           </>}
 
-        <SortableContainer dndKitId="80de4d23-5730-414a-91f2-8ed33f0213f2" containerType="regular" prevTag="motion.div" className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style={{
+        <SortableContainer dndKitId="aef4973f-6f28-430d-aada-7c3c1ff40a65" containerType="regular" prevTag="motion.div" className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center" style={{
         y: heroY,
         opacity: heroOpacity,
         scale: heroScale
       }} data-magicpath-id="27" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="7cfb627d-3f1b-4f38-af35-bdf36a86d26a" containerType="regular" prevTag="motion.div" variants={containerVariants} initial="hidden" animate="visible" data-magicpath-id="28" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="2af444e7-fe21-4606-ad24-05f7a1c746a3" containerType="regular" prevTag="motion.div" variants={containerVariants} initial="hidden" animate="visible" data-magicpath-id="28" data-magicpath-path="KyleParksPortfolio.tsx">
             <motion.h1 data-magicpath-motion-tag="motion.h1" variants={itemVariants} className="text-5xl sm:text-6xl md:text-8xl font-bold mb-6 text-gray-900" data-magicpath-id="29" data-magicpath-path="KyleParksPortfolio.tsx">
               Kyle Parks
             </motion.h1>
 
-            <SortableContainer dndKitId="7a07f530-1693-419c-a32a-752d8c4f034f" containerType="regular" prevTag="motion.div" variants={itemVariants} data-magicpath-id="30" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="36727418-765f-4217-900f-e0d0ac3367b0" containerType="regular" prevTag="motion.div" variants={itemVariants} data-magicpath-id="30" data-magicpath-path="KyleParksPortfolio.tsx">
               <p className="text-xl sm:text-2xl md:text-4xl text-[#8A4FFF] font-semibold mb-10" data-magicpath-id="31" data-magicpath-path="KyleParksPortfolio.tsx">
                 Software Engineer
               </p>
@@ -502,22 +502,22 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
               Passionate about building elegant solutions to complex problems.
             </motion.p>
 
-            <SortableContainer dndKitId="9a0d42ba-9d36-42b3-8add-86a72e1493c4" containerType="collection" prevTag="motion.div" variants={itemVariants} className="flex items-center justify-center gap-6 mb-20" data-magicpath-id="33" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="e0e6f342-a33e-4236-84bf-a8e1aed376b8" containerType="collection" prevTag="motion.div" variants={itemVariants} className="flex items-center justify-center gap-6 mb-20" data-magicpath-id="33" data-magicpath-path="KyleParksPortfolio.tsx">
               {[{
               icon: Github,
               href: 'https://github.com',
               label: 'GitHub',
-              mpid: "361e05d0-44e9-4227-9e29-1abb9ffce613"
+              mpid: "ed42b9a1-496e-491b-9e81-ccc47ddf9d9a"
             }, {
               icon: Linkedin,
               href: 'https://linkedin.com',
               label: 'LinkedIn',
-              mpid: "57dce9a7-2485-46f6-a1b1-d8454a803dcf"
+              mpid: "e5822315-b217-4c8b-8595-d267ef04528a"
             }, {
               icon: Mail,
               href: 'mailto:kyle@example.com',
               label: 'Email',
-              mpid: "5fd18782-ecd8-4dac-aa87-0c992bf998d1"
+              mpid: "c4c64b68-71d8-41fe-977c-d7c474ef4d44"
             }].map(({
               icon: Icon,
               href,
@@ -539,11 +539,11 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                 </motion.a>)}
             </SortableContainer>
 
-            <SortableContainer dndKitId="046eec5b-0db5-4c4e-9fa9-592ed6f47527" containerType="regular" prevTag="motion.button" variants={itemVariants} onClick={() => scrollToSection('about')} className="text-[#8A4FFF] flex flex-col items-center gap-3 mx-auto group" data-magicpath-id="36" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="b414d914-4960-4f0c-93f3-7ccab677bee1" containerType="regular" prevTag="motion.button" variants={itemVariants} onClick={() => scrollToSection('about')} className="text-[#8A4FFF] flex flex-col items-center gap-3 mx-auto group" data-magicpath-id="36" data-magicpath-path="KyleParksPortfolio.tsx">
               <span className="text-base font-bold group-hover:text-[#9D5FFF] transition-colors" data-magicpath-id="37" data-magicpath-path="KyleParksPortfolio.tsx">
                 Scroll to explore
               </span>
-              <SortableContainer dndKitId="1d806c20-ba23-4dc7-b09b-3f0ee37a9fd4" containerType="regular" prevTag="motion.div" animate={{
+              <SortableContainer dndKitId="05b49761-709b-4325-8b32-4d1892e77eb4" containerType="regular" prevTag="motion.div" animate={{
               y: [0, 10, 0]
             }} transition={{
               duration: 1.5,
@@ -558,9 +558,9 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       </SortableContainer>
 
       {/* About Section - Enhanced */}
-      <SortableContainer dndKitId="5325aae8-e883-4bdf-acd5-c115ab4e59d4" containerType="regular" prevTag="section" id="about" className="py-32 bg-white relative" data-magicpath-id="40" data-magicpath-path="KyleParksPortfolio.tsx">
-        <SortableContainer dndKitId="4afc5e91-dde9-4221-91a5-1d3bc4317091" containerType="regular" prevTag="div" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="41" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="12001d36-9f3d-45e1-a19c-6dab77c9916a" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="fea74c56-053f-4e48-af44-20af8affd291" containerType="regular" prevTag="section" id="about" className="py-32 bg-white relative" data-magicpath-id="40" data-magicpath-path="KyleParksPortfolio.tsx">
+        <SortableContainer dndKitId="825398cf-da15-49a9-895b-363817506cd5" containerType="regular" prevTag="div" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="41" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="d0dfc0c5-eee3-4629-b28c-3dff34bda3c7" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0
         }} whileInView={{
           opacity: 1
@@ -570,7 +570,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           once: true,
           margin: '-100px'
         }} data-magicpath-id="42" data-magicpath-path="KyleParksPortfolio.tsx">
-            <SortableContainer dndKitId="4cbb7d98-f308-4ff9-935f-caa053f3fbb9" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-20" initial={{
+            <SortableContainer dndKitId="bbbaa89a-8516-47ee-b964-96bb0bff1383" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-20" initial={{
             opacity: 0,
             x: -100
           }} whileInView={{
@@ -583,7 +583,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           }} viewport={{
             once: true
           }} data-magicpath-id="43" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="920e5d47-466f-4744-9cfd-eaab677e2f9f" containerType="regular" prevTag="motion.div" whileHover={{
+              <SortableContainer dndKitId="6501c797-812e-4fb2-8b18-e8a6cf3dedaa" containerType="regular" prevTag="motion.div" whileHover={{
               rotate: 360,
               scale: 1.3
             }} transition={{
@@ -594,8 +594,8 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900" data-magicpath-id="46" data-magicpath-path="KyleParksPortfolio.tsx">About Me</h2>
             </SortableContainer>
 
-            <SortableContainer dndKitId="f60d234f-8fa0-4bf2-b2e3-8c544e004cf0" containerType="regular" prevTag="div" className="grid md:grid-cols-2 gap-16 items-center" data-magicpath-id="47" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="024d7842-4c01-45c4-bb4d-d59820f9f939" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="1e55aa4a-3635-4358-82ec-7fced047ad21" containerType="regular" prevTag="div" className="grid md:grid-cols-2 gap-16 items-center" data-magicpath-id="47" data-magicpath-path="KyleParksPortfolio.tsx">
+              <SortableContainer dndKitId="6f06a46d-2801-42f5-9681-127e27f6dba4" containerType="regular" prevTag="motion.div" initial={{
               opacity: 0,
               x: -100
             }} whileInView={{
@@ -625,7 +625,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                 </p>
 
                 {/* Quick stats - ENHANCED */}
-                <SortableContainer dndKitId="b7298410-b44a-4b9c-9ff0-407ad7c2d7a7" containerType="collection" prevTag="motion.div" className="grid grid-cols-3 gap-4 pt-6" initial={{
+                <SortableContainer dndKitId="7717ba95-10f1-40b7-b275-37dd0612427f" containerType="collection" prevTag="motion.div" className="grid grid-cols-3 gap-4 pt-6" initial={{
                 opacity: 0,
                 y: 50
               }} whileInView={{
@@ -641,17 +641,17 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                   label: 'Projects',
                   value: '15+',
                   icon: Briefcase,
-                  mpid: "7eb7d5b0-a7f6-4ebe-addb-ee74a1e5291e"
+                  mpid: "82a88467-8f90-4872-aac8-55079b936e59"
                 }, {
                   label: 'Skills',
                   value: '24+',
                   icon: Code,
-                  mpid: "72119c23-443a-4117-b0dc-dc0249b36a18"
+                  mpid: "6fc16ff6-63d1-4845-9561-dcb2cc7faee8"
                 }, {
                   label: 'Certifications',
                   value: '3',
                   icon: Award,
-                  mpid: "25b8a946-60fa-422e-b6d8-124dde186f35"
+                  mpid: "1d7a813d-45ba-4ad5-b68d-6334d4c93b07"
                 }].map(({
                   label,
                   value,
@@ -668,7 +668,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                 </SortableContainer>
               </SortableContainer>
 
-              <SortableContainer dndKitId="d6a2a79b-e510-400a-b781-0e69351261b9" containerType="regular" prevTag="motion.div" className="relative" initial={{
+              <SortableContainer dndKitId="2f991e90-8a13-43f9-82e4-3543ad54900f" containerType="regular" prevTag="motion.div" className="relative" initial={{
               opacity: 0,
               scale: 0.8,
               rotate: -5
@@ -682,13 +682,13 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             }} viewport={{
               once: true
             }} data-magicpath-id="57" data-magicpath-path="KyleParksPortfolio.tsx">
-                <SortableContainer dndKitId="718df798-3356-4741-98c0-bf15a15326d4" containerType="regular" prevTag="motion.div" className="w-full h-96 md:h-[500px] rounded-3xl bg-gradient-to-br from-[#8A4FFF] via-[#9D5FFF] to-[#C3BEF0] p-1.5 shadow-2xl" whileHover={{
+                <SortableContainer dndKitId="2cf569b4-c8ca-4ea3-830c-0570af5b8e82" containerType="regular" prevTag="motion.div" className="w-full h-96 md:h-[500px] rounded-3xl bg-gradient-to-br from-[#8A4FFF] via-[#9D5FFF] to-[#C3BEF0] p-1.5 shadow-2xl" whileHover={{
                 scale: 1.05,
                 rotate: 2
               }} transition={{
                 duration: 0.3
               }} data-magicpath-id="58" data-magicpath-path="KyleParksPortfolio.tsx">
-                  <SortableContainer dndKitId="83e068d9-f21f-4be0-af19-4f59441c02b4" containerType="regular" prevTag="div" className="w-full h-full bg-white rounded-[22px] overflow-hidden" data-magicpath-id="59" data-magicpath-path="KyleParksPortfolio.tsx">
+                  <SortableContainer dndKitId="9545f30c-f928-4220-9209-819986e98bde" containerType="regular" prevTag="div" className="w-full h-full bg-white rounded-[22px] overflow-hidden" data-magicpath-id="59" data-magicpath-path="KyleParksPortfolio.tsx">
                     <motion.img data-magicpath-motion-tag="motion.img" src="https://static.magicpath.ai/user-images/cd5c6bf5-ac42-4c8a-bf48-d26c5e4eda8e.png" alt="Kyle Parks" className="w-full h-full object-cover" whileHover={{
                     scale: 1.1
                   }} transition={{
@@ -724,11 +724,11 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       </SortableContainer>
 
       {/* Education Section - Enhanced */}
-      <SortableContainer dndKitId="a02ed247-c6ce-4bf9-b14c-4e99012978f3" containerType="regular" prevTag="section" id="education" className="py-32 bg-gradient-to-br from-[#EFFFFA] via-white to-[#E5ECF4] relative overflow-hidden" data-magicpath-id="64" data-magicpath-path="KyleParksPortfolio.tsx">
+      <SortableContainer dndKitId="65de2bf6-2a81-4c25-a6ce-c54b71fb9555" containerType="regular" prevTag="section" id="education" className="py-32 bg-gradient-to-br from-[#EFFFFA] via-white to-[#E5ECF4] relative overflow-hidden" data-magicpath-id="64" data-magicpath-path="KyleParksPortfolio.tsx">
         {!isMobile && <FloatingOrb delay={0} duration={25} size="medium" color="#C3BEF0" shouldReduceMotion={shouldReduceMotion} data-magicpath-id="65" data-magicpath-path="KyleParksPortfolio.tsx" />}
 
-        <SortableContainer dndKitId="1f59c92d-dffc-40e2-9b71-f2e0675a98c2" containerType="regular" prevTag="div" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-magicpath-id="66" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="6f4c2ab5-7d7a-4aa7-a9c7-12d7c5bd58dc" containerType="regular" prevTag="motion.div" initial={{
+        <SortableContainer dndKitId="6e04bca4-75cf-4c77-8a41-093952d2e355" containerType="regular" prevTag="div" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-magicpath-id="66" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="fcdfa1f4-d2bb-4367-879b-544758afd2d5" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0
         }} whileInView={{
           opacity: 1
@@ -738,7 +738,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           once: true,
           margin: '-100px'
         }} data-magicpath-id="67" data-magicpath-path="KyleParksPortfolio.tsx">
-            <SortableContainer dndKitId="3ef5c852-3948-4253-ab33-04ae718e0c9d" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-20" initial={{
+            <SortableContainer dndKitId="cb652761-1cf5-4eea-a13f-1c50ce3ef6b2" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-20" initial={{
             opacity: 0,
             x: -100
           }} whileInView={{
@@ -750,7 +750,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           }} viewport={{
             once: true
           }} data-magicpath-id="68" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="1da11cec-261c-431e-bb4d-34d7effdc09b" containerType="regular" prevTag="motion.div" whileHover={{
+              <SortableContainer dndKitId="3d368c56-ac95-481a-8732-04b1ff5fc43c" containerType="regular" prevTag="motion.div" whileHover={{
               rotate: 360,
               scale: 1.3
             }} transition={{
@@ -761,7 +761,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900" data-magicpath-id="71" data-magicpath-path="KyleParksPortfolio.tsx">Education</h2>
             </SortableContainer>
 
-            <SortableContainer dndKitId="8f4a4410-9b86-4592-9e1b-28d08e2e9539" containerType="collection" prevTag="div" className="space-y-8" data-magicpath-id="72" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="02808e96-1a03-45bf-82e8-b794c6f81844" containerType="collection" prevTag="div" className="space-y-8" data-magicpath-id="72" data-magicpath-path="KyleParksPortfolio.tsx">
               {education.map((edu, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
               opacity: 0
             }} whileInView={{
@@ -781,10 +781,6 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                     <motion.span data-magicpath-motion-tag="motion.span" className="px-5 py-2.5 rounded-full text-sm font-bold inline-block w-fit shadow-sm" style={{
                   backgroundColor: `${edu.color}20`,
                   color: edu.color
-                }} whileHover={{
-                  scale: 1.2,
-                  y: -5,
-                  rotate: 5
                 }} data-magicpath-uuid={(edu as any)["mpid"] ?? "unsafe"} data-magicpath-field="period:unknown" data-magicpath-id="76" data-magicpath-path="KyleParksPortfolio.tsx">
                       {edu.period}
                     </motion.span>
@@ -802,9 +798,9 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       </SortableContainer>
 
       {/* Skills Section - Enhanced */}
-      <SortableContainer dndKitId="ef2d97f1-40f1-4fef-94f4-0e287c4cee17" containerType="regular" prevTag="section" id="skills" className="py-32 bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden" data-magicpath-id="79" data-magicpath-path="KyleParksPortfolio.tsx">
-        <SortableContainer dndKitId="faddb85f-960e-4f5b-b46c-974bce3efd08" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="80" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="b678fac0-9182-4d2c-bc7e-1e54f8df878d" containerType="regular" prevTag="motion.div" initial={{
+      <SortableContainer dndKitId="3838ecd9-464f-4a20-8014-cd7c5b219010" containerType="regular" prevTag="section" id="skills" className="py-32 bg-gradient-to-b from-white via-gray-50 to-white overflow-hidden" data-magicpath-id="79" data-magicpath-path="KyleParksPortfolio.tsx">
+        <SortableContainer dndKitId="16cd84ab-5a36-436e-a376-2a448ed3782e" containerType="regular" prevTag="div" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-magicpath-id="80" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="83d8503c-50b6-47bc-94d7-5c0f2c82d206" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0
         }} whileInView={{
           opacity: 1
@@ -814,7 +810,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           once: true,
           margin: '-100px'
         }} data-magicpath-id="81" data-magicpath-path="KyleParksPortfolio.tsx">
-            <SortableContainer dndKitId="f19864e8-ecaf-4592-8dfb-b65e97fdf668" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-6 justify-center" initial={{
+            <SortableContainer dndKitId="eb2279dd-9499-410d-b7eb-d451413100ce" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-6 justify-center" initial={{
             opacity: 0,
             y: -50
           }} whileInView={{
@@ -826,7 +822,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           }} viewport={{
             once: true
           }} data-magicpath-id="82" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="6982a1f7-22cb-43c9-828e-4e578a3a8f41" containerType="regular" prevTag="motion.div" whileHover={{
+              <SortableContainer dndKitId="7fe98f31-5b0c-4b07-9c4a-19ed62bbc903" containerType="regular" prevTag="motion.div" whileHover={{
               rotate: 360,
               scale: 1.1
             }} transition={{
@@ -853,15 +849,15 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             </motion.p>
 
             {/* Infinite Marquee Animation */}
-            <SortableContainer dndKitId="33872678-8791-4de2-8062-0ac0f55912d2" containerType="regular" prevTag="div" className="relative" data-magicpath-id="87" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="a13b75e5-c884-49e9-934b-6673cf2cbeb0" containerType="regular" prevTag="div" className="relative" data-magicpath-id="87" data-magicpath-path="KyleParksPortfolio.tsx">
               {/* Gradient Overlays */}
               <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-white via-white to-transparent z-10 pointer-events-none" data-magicpath-id="88" data-magicpath-path="KyleParksPortfolio.tsx" />
               <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white via-white to-transparent z-10 pointer-events-none" data-magicpath-id="89" data-magicpath-path="KyleParksPortfolio.tsx" />
               
               {/* Marquee Container */}
-              <SortableContainer dndKitId="19f462ec-6be7-407c-9d79-372e5dd324e6" containerType="regular" prevTag="div" className="flex overflow-hidden py-8" data-magicpath-id="90" data-magicpath-path="KyleParksPortfolio.tsx">
+              <SortableContainer dndKitId="a44bfa5b-52d7-4f6d-92aa-27acb4c38198" containerType="regular" prevTag="div" className="flex overflow-hidden py-8" data-magicpath-id="90" data-magicpath-path="KyleParksPortfolio.tsx">
                 {/* First set of technologies */}
-                <SortableContainer dndKitId="9efcb83d-ad48-4c53-bd52-bdf7839671c6" containerType="collection" prevTag="motion.div" className="flex gap-8 shrink-0" animate={{
+                <SortableContainer dndKitId="7838f05c-8499-4ef3-9ca8-5bdbfb205e04" containerType="collection" prevTag="motion.div" className="flex gap-8 shrink-0" animate={{
                 x: [0, -1920]
               }} transition={{
                 duration: shouldReduceMotion ? 80 : 40,
@@ -893,7 +889,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                 </SortableContainer>
 
                 {/* Second set (duplicate for seamless loop) */}
-                <SortableContainer dndKitId="cb6e6dba-3a00-4a4c-9fff-5844c06296fd" containerType="collection" prevTag="motion.div" className="flex gap-8 shrink-0" animate={{
+                <SortableContainer dndKitId="34152cac-16fb-43f0-af96-6ecaf5ae428d" containerType="collection" prevTag="motion.div" className="flex gap-8 shrink-0" animate={{
                 x: [0, -1920]
               }} transition={{
                 duration: shouldReduceMotion ? 80 : 40,
@@ -927,7 +923,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             </SortableContainer>
 
             {/* Tech Summary - Professional Badge */}
-            <SortableContainer dndKitId="35b2c1e1-5d5b-4304-b38c-93f16072c091" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="f51c12b4-81c9-4d46-b0b6-6bd6e8ab084b" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 20
           }} whileInView={{
@@ -939,11 +935,11 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           }} viewport={{
             once: true
           }} className="mt-16 flex justify-center" data-magicpath-id="105" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="15ec43ff-6d3b-4d17-b785-c55fe16d5a79" containerType="regular" prevTag="div" className="inline-flex items-center gap-4 px-8 py-4 bg-white rounded-xl border border-gray-200 shadow-sm" data-magicpath-id="106" data-magicpath-path="KyleParksPortfolio.tsx">
-                <SortableContainer dndKitId="4326eacf-9a25-428a-9dd5-24a5da027f5f" containerType="regular" prevTag="div" className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-[#8A4FFF] to-[#C3BEF0]" data-magicpath-id="107" data-magicpath-path="KyleParksPortfolio.tsx">
+              <SortableContainer dndKitId="0b594265-7939-4dc7-ac18-0c3d414414be" containerType="regular" prevTag="div" className="inline-flex items-center gap-4 px-8 py-4 bg-white rounded-xl border border-gray-200 shadow-sm" data-magicpath-id="106" data-magicpath-path="KyleParksPortfolio.tsx">
+                <SortableContainer dndKitId="fcdacfed-8384-4800-b886-371771f4527c" containerType="regular" prevTag="div" className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-[#8A4FFF] to-[#C3BEF0]" data-magicpath-id="107" data-magicpath-path="KyleParksPortfolio.tsx">
                   <Sparkles className="text-white" size={20} />
                 </SortableContainer>
-                <SortableContainer dndKitId="3208987e-5e2e-478e-a8d2-eb4c71cdb58c" containerType="regular" prevTag="div" className="text-left" data-magicpath-id="108" data-magicpath-path="KyleParksPortfolio.tsx">
+                <SortableContainer dndKitId="a26b0784-020e-495c-97ed-fcd47e050b65" containerType="regular" prevTag="div" className="text-left" data-magicpath-id="108" data-magicpath-path="KyleParksPortfolio.tsx">
                   <p className="text-xs text-gray-500 font-medium uppercase tracking-wide" data-magicpath-id="109" data-magicpath-path="KyleParksPortfolio.tsx">Technologies Mastered</p>
                   <p className="text-2xl font-bold bg-gradient-to-r from-[#8A4FFF] to-[#C3BEF0] bg-clip-text text-transparent" data-magicpath-id="110" data-magicpath-path="KyleParksPortfolio.tsx">
                     {technologies.length}+
@@ -956,11 +952,11 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       </SortableContainer>
 
       {/* Projects Section - Enhanced */}
-      <SortableContainer dndKitId="d1f18b2a-0086-4cc9-aea1-be9efb5b9947" containerType="regular" prevTag="section" id="projects" className="py-32 bg-gradient-to-br from-[#E5ECF4] via-white to-[#EFFFFA] relative overflow-hidden" data-magicpath-id="111" data-magicpath-path="KyleParksPortfolio.tsx">
+      <SortableContainer dndKitId="affab3f6-a107-41d8-966f-d73a453a3224" containerType="regular" prevTag="section" id="projects" className="py-32 bg-gradient-to-br from-[#E5ECF4] via-white to-[#EFFFFA] relative overflow-hidden" data-magicpath-id="111" data-magicpath-path="KyleParksPortfolio.tsx">
         {!isMobile && <FloatingOrb delay={5} duration={25} size="large" color="#8A4FFF" shouldReduceMotion={shouldReduceMotion} data-magicpath-id="112" data-magicpath-path="KyleParksPortfolio.tsx" />}
 
-        <SortableContainer dndKitId="35540d4c-361a-4f8f-a3ff-b424652b1058" containerType="regular" prevTag="div" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-magicpath-id="113" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="7335c155-3bf7-48b8-a3a2-75d5126ed687" containerType="regular" prevTag="motion.div" initial={{
+        <SortableContainer dndKitId="21588ef5-bb23-465b-84f7-6199bd3e7463" containerType="regular" prevTag="div" className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" data-magicpath-id="113" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="d1b645d0-c8cb-4216-83f5-3c5f4badcfbf" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0
         }} whileInView={{
           opacity: 1
@@ -970,7 +966,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           once: true,
           margin: '-100px'
         }} data-magicpath-id="114" data-magicpath-path="KyleParksPortfolio.tsx">
-            <SortableContainer dndKitId="00c5e5c8-4dd0-450b-aa2d-cd1eb5f2015d" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-20" initial={{
+            <SortableContainer dndKitId="f4de34b1-3429-4f77-9675-a8a730633525" containerType="regular" prevTag="motion.div" className="flex items-center gap-4 mb-20" initial={{
             opacity: 0,
             x: -100
           }} whileInView={{
@@ -982,7 +978,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           }} viewport={{
             once: true
           }} data-magicpath-id="115" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="9ea4e0d0-d862-4eae-8a83-451d50bc1ea0" containerType="regular" prevTag="motion.div" whileHover={{
+              <SortableContainer dndKitId="b78dec6b-56fb-4d08-b9a5-fdbda137c174" containerType="regular" prevTag="motion.div" whileHover={{
               rotate: 360,
               scale: 1.3
             }} transition={{
@@ -993,7 +989,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900" data-magicpath-id="118" data-magicpath-path="KyleParksPortfolio.tsx">Projects</h2>
             </SortableContainer>
 
-            <SortableContainer dndKitId="573bd247-094f-4364-a4aa-bde7c28a912c" containerType="collection" prevTag="div" className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16" data-magicpath-id="119" data-magicpath-path="KyleParksPortfolio.tsx">
+            <SortableContainer dndKitId="6863a138-d756-407d-b9aa-f9a294776f98" containerType="collection" prevTag="div" className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16" data-magicpath-id="119" data-magicpath-path="KyleParksPortfolio.tsx">
               {projects.map((project, index) => <motion.div data-magicpath-motion-tag="motion.div" key={index} initial={{
               opacity: 0
             }} whileInView={{
@@ -1026,7 +1022,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
                 </motion.div>)}
             </SortableContainer>
 
-            <SortableContainer dndKitId="3a68004a-e597-4235-a981-e3e42f2bca21" containerType="regular" prevTag="motion.div" initial={{
+            <SortableContainer dndKitId="0c8b3ed6-abff-413d-a348-44927ea3a189" containerType="regular" prevTag="motion.div" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1062,11 +1058,11 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
       </SortableContainer>
 
       {/* Contact Section - Enhanced */}
-      <SortableContainer dndKitId="49285f7a-f3e6-49db-9d44-5c5fa44d4c32" containerType="regular" prevTag="section" id="contact" className="py-32 bg-gradient-to-br from-[#8A4FFF] via-[#9D5FFF] to-[#C3BEF0] relative overflow-hidden" data-magicpath-id="134" data-magicpath-path="KyleParksPortfolio.tsx">
+      <SortableContainer dndKitId="d0836e07-b8fb-4d25-8377-05ca0c6501ea" containerType="regular" prevTag="section" id="contact" className="py-32 bg-gradient-to-br from-[#8A4FFF] via-[#9D5FFF] to-[#C3BEF0] relative overflow-hidden" data-magicpath-id="134" data-magicpath-path="KyleParksPortfolio.tsx">
         {!isMobile && <FloatingOrb delay={0} duration={20} size="large" color="#FFFFFF" shouldReduceMotion={shouldReduceMotion} data-magicpath-id="135" data-magicpath-path="KyleParksPortfolio.tsx" />}
 
-        <SortableContainer dndKitId="e36c8071-b331-4cf6-8bff-7ea4e960796f" containerType="regular" prevTag="div" className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10" data-magicpath-id="136" data-magicpath-path="KyleParksPortfolio.tsx">
-          <SortableContainer dndKitId="b939ec93-914d-4364-a280-95df763e3b4f" containerType="regular" prevTag="motion.div" initial={{
+        <SortableContainer dndKitId="95e2ea92-41de-43db-99de-b925203697ba" containerType="regular" prevTag="div" className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10" data-magicpath-id="136" data-magicpath-path="KyleParksPortfolio.tsx">
+          <SortableContainer dndKitId="f5ad6f0c-8a48-41e6-9072-92f4230e4c44" containerType="regular" prevTag="motion.div" initial={{
           opacity: 0,
           y: 80
         }} whileInView={{
@@ -1107,7 +1103,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
               to be part of your vision. Feel free to reach out!
             </motion.p>
 
-            <SortableContainer dndKitId="5243ab9e-e8b8-4481-b11c-f9cf644e08b5" containerType="regular" prevTag="motion.div" className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-20" initial={{
+            <SortableContainer dndKitId="d1d33fe7-ffbf-4303-a6ca-ccc4d4f343d4" containerType="regular" prevTag="motion.div" className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-20" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1140,7 +1136,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             </SortableContainer>
 
             {/* Download Resume Button */}
-            <SortableContainer dndKitId="09982e34-c641-42f6-8f6a-6d3cd24547f3" containerType="regular" prevTag="motion.div" className="flex items-center justify-center mb-16" initial={{
+            <SortableContainer dndKitId="3d43c11c-0ff7-48d4-9a4a-f5c2094a24e9" containerType="regular" prevTag="motion.div" className="flex items-center justify-center mb-16" initial={{
             opacity: 0,
             y: 30
           }} whileInView={{
@@ -1164,7 +1160,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
             </SortableContainer>
 
             {/* Footer content */}
-            <SortableContainer dndKitId="4a21ae8f-fe15-40e0-9f60-d040c67198f8" containerType="regular" prevTag="motion.div" className="pt-10 border-t border-white/20" initial={{
+            <SortableContainer dndKitId="d862d78e-924e-4aee-be76-87dc203fb461" containerType="regular" prevTag="motion.div" className="pt-10 border-t border-white/20" initial={{
             opacity: 0
           }} whileInView={{
             opacity: 1
@@ -1174,26 +1170,26 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
           }} viewport={{
             once: true
           }} data-magicpath-id="148" data-magicpath-path="KyleParksPortfolio.tsx">
-              <SortableContainer dndKitId="d268bb11-85d5-4887-b281-9a0f4c10748f" containerType="regular" prevTag="div" className="flex flex-col md:flex-row items-center justify-between gap-6" data-magicpath-id="149" data-magicpath-path="KyleParksPortfolio.tsx">
+              <SortableContainer dndKitId="ac692602-10f5-4468-9ab8-383d3b59e0fb" containerType="regular" prevTag="div" className="flex flex-col md:flex-row items-center justify-between gap-6" data-magicpath-id="149" data-magicpath-path="KyleParksPortfolio.tsx">
                 <p className="text-white/90 text-base font-medium" data-magicpath-id="150" data-magicpath-path="KyleParksPortfolio.tsx">
                   © 2024 Kyle Parks. Built with React, TypeScript, and Tailwind CSS.
                 </p>
-                <SortableContainer dndKitId="44c36e16-2672-4bf2-a441-a6b26e411d1a" containerType="collection" prevTag="div" className="flex items-center gap-5" data-magicpath-id="151" data-magicpath-path="KyleParksPortfolio.tsx">
+                <SortableContainer dndKitId="e911061e-f24b-4d2e-8eb4-c1e7109ab565" containerType="collection" prevTag="div" className="flex items-center gap-5" data-magicpath-id="151" data-magicpath-path="KyleParksPortfolio.tsx">
                   {[{
                   icon: Github,
                   href: 'https://github.com',
                   label: 'GitHub',
-                  mpid: "ea0f2428-96d5-4567-957e-3f206e3ce07a"
+                  mpid: "70b4d3fd-e3ba-4653-8bb5-1d1828992de6"
                 }, {
                   icon: Linkedin,
                   href: 'https://linkedin.com',
                   label: 'LinkedIn',
-                  mpid: "21aba6e4-af39-433a-bfa5-e400b922702c"
+                  mpid: "aaa6eaae-fc51-4580-899c-1c32d458c772"
                 }, {
                   icon: Mail,
                   href: 'mailto:kyle@example.com',
                   label: 'Email',
-                  mpid: "06e96e21-c3f2-44d7-aa89-68f1e65f8a69"
+                  mpid: "01e6ac47-27e0-4301-a9bb-67fa43c5328f"
                 }].map(({
                   icon: Icon,
                   href,
