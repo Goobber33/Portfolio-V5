@@ -5,13 +5,15 @@ interface FloatingOrbProps {
   duration?: number;
   size?: 'large' | 'medium' | 'small';
   color?: string;
+  className?: string;
 }
 
 export const FloatingOrb = ({
   delay = 0,
   duration = 20,
   size = 'large',
-  color = '#8A4FFF'
+  color = '#8A4FFF',
+  className = ''
 }: FloatingOrbProps) => {
   const sizeMap = {
     large: '800px',
@@ -21,7 +23,7 @@ export const FloatingOrb = ({
 
   return (
     <motion.div
-      className="absolute rounded-full blur-3xl opacity-40 pointer-events-none"
+      className={`${className} absolute rounded-full blur-3xl opacity-40 pointer-events-none`}
       style={{
         background: `radial-gradient(circle, ${color} 0%, transparent 70%)`,
         width: sizeMap[size],

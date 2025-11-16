@@ -9,7 +9,7 @@ export const ContactSection = () => {
       id="contact"
       className="py-32 bg-gradient-to-br from-[#8A4FFF] via-[#9D5FFF] to-[#C3BEF0] relative overflow-hidden"
     >
-      <FloatingOrb delay={0} duration={20} size="large" color="#FFFFFF" />
+      <FloatingOrb delay={0} duration={20} size="large" color="#FFFFFF" className="hidden md:block" />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <motion.div

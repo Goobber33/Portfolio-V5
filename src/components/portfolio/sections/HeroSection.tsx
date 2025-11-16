@@ -2,6 +2,7 @@ import { motion, MotionValue } from 'framer-motion';
 import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 import { FloatingOrb } from '../ui/FloatingOrb';
 import { socialLinks } from '../../../data/portfolio';
+import { useIsMobile } from '../../../hooks/use-mobile';
 
 interface HeroSectionProps {
   onNavigate: (sectionId: string) => void;
@@ -20,6 +21,7 @@ export const HeroSection = ({
   containerVariants,
   itemVariants
 }: HeroSectionProps) => {
+  const isMobile = useIsMobile();
   return (
     <section
       id="home"
@@ -27,13 +29,13 @@ export const HeroSection = ({
     >
       <div className="absolute inset-0 bg-gradient-to-br from-[#E5ECF4] via-white to-[#EFFFFA]" />
 
-      <FloatingOrb delay={0} duration={8} size="large" color="#8A4FFF" />
-      <FloatingOrb delay={2} duration={10} size="medium" color="#C3BEF0" />
-      <FloatingOrb delay={4} duration={12} size="medium" color="#E5ECF4" />
+      <FloatingOrb delay={0} duration={8} size="large" color="#8A4FFF" className="hidden md:block" />
+      <FloatingOrb delay={2} duration={10} size="medium" color="#C3BEF0" className="hidden md:block" />
+      <FloatingOrb delay={4} duration={12} size="medium" color="#E5ECF4" className="hidden md:block" />
 
       <motion.div
         className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
-        style={{
+        style={isMobile ? undefined : {
           y: heroY,
           opacity: heroOpacity,
           scale: heroScale

@@ -10,7 +10,7 @@ export const EducationSection = () => {
       id="education"
       className="py-32 bg-gradient-to-br from-[#EFFFFA] via-white to-[#E5ECF4] relative overflow-hidden"
     >
-      <FloatingOrb delay={0} duration={25} size="medium" color="#C3BEF0" />
+      <FloatingOrb delay={0} duration={25} size="medium" color="#C3BEF0" className="hidden md:block" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div

@@ -21,7 +21,7 @@ export const Navigation = ({ activeSection, onNavigate, navOpacity }: Navigation
 
   return (
     <motion.nav
-      className="fixed top-0 left-0 right-0 z-40 border-b border-[#E5ECF4]/80 backdrop-blur-xl shadow-sm"
+      className="fixed top-0 left-0 right-0 z-40 border-b border-[#E5ECF4]/80 md:backdrop-blur-xl shadow-sm"
       style={{
         backgroundColor: 'rgba(255, 255, 255, var(--nav-opacity))',
         '--nav-opacity': navOpacity
@@ -157,7 +157,7 @@ export const Navigation = ({ activeSection, onNavigate, navOpacity }: Navigation
             opacity: 0,
             height: 0
           }}
-          className="md:hidden border-t border-[#E5ECF4] bg-white/98 backdrop-blur-xl"
+          className="md:hidden border-t border-[#E5ECF4] bg-white/98"
         >
           <div className="px-4 py-4 space-y-1">
             {sectionLabels.map((item, idx) => {

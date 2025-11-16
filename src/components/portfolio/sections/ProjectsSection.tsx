@@ -10,7 +10,7 @@ export const ProjectsSection = () => {
       id="projects"
       className="py-32 bg-gradient-to-br from-[#E5ECF4] via-white to-[#EFFFFA] relative overflow-hidden"
     >
-      <FloatingOrb delay={5} duration={25} size="large" color="#8A4FFF" />
+      <FloatingOrb delay={5} duration={25} size="large" color="#8A4FFF" className="hidden md:block" />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div

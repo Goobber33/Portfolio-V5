@@ -10,12 +10,14 @@ import { ProjectsSection } from './sections/ProjectsSection';
 import { ContactSection } from './sections/ContactSection';
 import { containerVariants, itemVariants } from './constants/animations';
 import { useScrollTracking } from '../../hooks/useScrollTracking';
+import { useIsMobile } from '../../hooks/use-mobile';
 
 type KyleParksPortfolioProps = Record<string, never>;
 
 export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
   const { activeSection, scrollToSection } = useScrollTracking();
   const { scrollYProgress } = useScroll();
+  const isMobile = useIsMobile();
 
   // Enhanced smooth spring animation for scroll progress
   const smoothProgress = useSpring(scrollYProgress, {
@@ -32,7 +34,7 @@ export const KyleParksPortfolio = (props: KyleParksPortfolioProps) => {
 
   return (
     <div className="min-h-screen w-full bg-white overflow-x-hidden">
-      <ProgressBar scrollProgress={smoothProgress} />
+      {!isMobile && <ProgressBar scrollProgress={smoothProgress} />}
 
       <Navigation
         activeSection={activeSection}
