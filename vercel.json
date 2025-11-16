@@ -4,6 +4,7 @@
   "devCommand": "yarn dev",
   "installCommand": "yarn install",
   "framework": "vite",
+  "nodeVersion": "22.x",
   "rewrites": [
     {
       "source": "/(.*)",
