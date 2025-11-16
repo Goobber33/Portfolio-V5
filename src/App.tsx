@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { Container, Theme } from './settings/types';
 import { KyleParksPortfolio } from './components/portfolio/KyleParksPortfolio';
+import { Analytics } from '@vercel/analytics/react';
 
 let theme: Theme = 'light';
 // only use 'centered' container for standalone components, never for full page apps or websites.
@@ -26,10 +27,16 @@ function App() {
     return (
       <div className="h-full w-full flex flex-col items-center justify-center">
         {generatedComponent}
+        <Analytics />
       </div>
     );
   } else {
-    return generatedComponent;
+    return (
+      <>
+        {generatedComponent}
+        <Analytics />
+      </>
+    );
   }
 }
 
