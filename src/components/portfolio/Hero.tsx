@@ -89,15 +89,15 @@ export const Hero: React.FC<HeroProps> = ({
           <motion.div variants={itemVariants} className="flex items-center justify-center gap-6 mb-20">
             {[{
               icon: Github,
-              href: 'https://github.com',
+              href: 'https://github.com/Goobber33',
               label: 'GitHub'
             }, {
               icon: Linkedin,
-              href: 'https://linkedin.com',
+              href: 'https://www.linkedin.com/in/kyle-parks-b0a74017b',
               label: 'LinkedIn'
             }, {
               icon: Mail,
-              href: 'mailto:kyle@example.com',
+              href: 'mailto:kcparks1234@gmail.com',
               label: 'Email'
             }].map(({ icon: Icon, href, label }, idx) => (
               <motion.a

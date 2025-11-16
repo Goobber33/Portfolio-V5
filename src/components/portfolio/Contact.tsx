@@ -93,7 +93,7 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
             }}
           >
             <motion.a
-              href="mailto:kyle@example.com"
+              href="mailto:kcparks1234@gmail.com"
               whileHover={{
                 scale: 1.1,
                 y: -5
@@ -107,7 +107,7 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
               Send Email
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/kyle-parks-b0a74017b"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{
@@ -144,8 +144,9 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
             }}
           >
             <motion.a
-              href="/resume.pdf"
-              download
+              href="/Kyle-Parks-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{
                 scale: 1.1,
                 y: -5
@@ -156,7 +157,7 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
               className="px-12 py-6 bg-white/10 backdrop-blur-sm text-white rounded-2xl font-bold hover:bg-white/20 transition-all duration-200 flex items-center gap-3 border-2 border-white/30 hover:border-white/50 shadow-xl"
             >
               <Download size={24} />
-              Download Resume
+              View Resume
             </motion.a>
           </motion.div>
 
@@ -184,15 +185,15 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
               <div className="flex items-center gap-5">
                 {[{
                   icon: Github,
-                  href: 'https://github.com',
+                  href: 'https://github.com/Goobber33',
                   label: 'GitHub'
                 }, {
                   icon: Linkedin,
-                  href: 'https://linkedin.com',
+                  href: 'https://www.linkedin.com/in/kyle-parks-b0a74017b',
                   label: 'LinkedIn'
                 }, {
                   icon: Mail,
-                  href: 'mailto:kyle@example.com',
+                  href: 'mailto:kcparks1234@gmail.com',
                   label: 'Email'
                 }].map(({ icon: Icon, href, label }) => (
                   <motion.a

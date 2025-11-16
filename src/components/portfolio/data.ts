@@ -112,20 +112,20 @@ export const skillCategories = [{
 }] as any[];
 
 export const projects = [{
-  title: 'E-Commerce Platform',
-  description: 'Full-stack e-commerce solution with cart management, user authentication, and payment integration.',
-  tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-  link: '#'
+  title: 'Portfolio Website',
+  description: 'Modern, responsive portfolio website built with React, TypeScript, and Vite. Features animated components, smooth scrolling, and a beautiful UI with Tailwind CSS.',
+  tech: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+  link: 'https://github.com/Goobber33/Portfolio-V5'
 }, {
-  title: 'Task Management App',
-  description: 'Collaborative task management application with real-time updates and team features.',
-  tech: ['TypeScript', 'Express', 'PostgreSQL', 'Socket.io'],
-  link: '#'
+  title: 'Quantum IQ - AI Platform',
+  description: 'A state-of-the-art SaaS AI platform featuring conversation analysis, image/video generation, music composition, and code generation. Built with Next.js and integrated with Stripe for subscriptions.',
+  tech: ['Next.js', 'React', 'TypeScript', 'Prisma', 'Stripe', 'Tailwind CSS'],
+  link: 'https://github.com/Goobber33/Quantum-AI'
 }, {
-  title: 'Weather Dashboard',
-  description: 'Interactive weather application with data visualization and location-based forecasts.',
-  tech: ['React', 'Chart.js', 'OpenWeather API', 'Tailwind CSS'],
-  link: '#'
+  title: 'Air Quality Dataset Analysis',
+  description: 'Python data analysis project using Pandas to process and visualize large air quality datasets. Features chunk processing, data aggregation, SQLite integration, and interactive visualizations for environmental data analysis.',
+  tech: ['Python', 'Pandas', 'SQLite', 'Matplotlib'],
+  link: 'https://github.com/Goobber33/Pandas-Air-Quality-Dataset'
 }] as any[];
 
 export const education = [{

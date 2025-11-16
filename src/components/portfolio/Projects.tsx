@@ -100,6 +100,8 @@ export const Projects: React.FC<ProjectsProps> = ({ isMobile, shouldReduceMotion
                 </div>
                 <motion.a
                   href={project.link}
+                  target={project.link.startsWith('http') ? '_blank' : undefined}
+                  rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="inline-flex items-center gap-2 text-[#8A4FFF] hover:text-[#C3BEF0] transition-colors duration-200 font-bold"
                   whileHover={{
                     x: 10
@@ -133,7 +135,7 @@ export const Projects: React.FC<ProjectsProps> = ({ isMobile, shouldReduceMotion
             className="flex justify-center"
           >
             <motion.a
-              href="https://github.com/kyleparks"
+              href="https://github.com/Goobber33"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{
