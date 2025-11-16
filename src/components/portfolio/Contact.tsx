@@ -93,9 +93,9 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
             }}
           >
             <motion.a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={isMobile ? 'mailto:kcparks1234@gmail.com' : 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com'}
+              target={!isMobile ? '_blank' : undefined}
+              rel={!isMobile ? 'noopener noreferrer' : undefined}
               whileHover={{
                 scale: 1.1,
                 y: -5
@@ -195,14 +195,14 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
                   label: 'LinkedIn'
                 }, {
                   icon: Mail,
-                  href: 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com',
+                  href: isMobile ? 'mailto:kcparks1234@gmail.com' : 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com',
                   label: 'Email'
                 }].map(({ icon: Icon, href, label }) => (
                   <motion.a
                     key={label}
                     href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={href.startsWith('http') ? '_blank' : undefined}
+                    rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
                     whileHover={{
                       scale: 1.3,
                       y: -5,

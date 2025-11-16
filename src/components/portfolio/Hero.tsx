@@ -97,14 +97,14 @@ export const Hero: React.FC<HeroProps> = ({
               label: 'LinkedIn'
             }, {
               icon: Mail,
-              href: 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com',
+              href: isMobile ? 'mailto:kcparks1234@gmail.com' : 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com',
               label: 'Email'
             }].map(({ icon: Icon, href, label }, idx) => (
               <motion.a
                 key={label}
                 href={href}
-                target="_blank"
-                rel="noopener noreferrer"
+                target={href.startsWith('http') ? '_blank' : undefined}
+                rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
                   initial={{
                     scale: 0,
                     rotate: -180
