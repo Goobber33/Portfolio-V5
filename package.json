@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": ">=24.4.0"
+    "node": "22.x"
+  },
+  "resolutions": {
+    "camera-controls": "2.9.0"
   },
   "scripts": {
     "dev": "vite",
