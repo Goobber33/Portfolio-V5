@@ -97,35 +97,35 @@ export const Hero: React.FC<HeroProps> = ({
               label: 'LinkedIn'
             }, {
               icon: Mail,
-              href: 'mailto:kcparks1234@gmail.com',
+              href: 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com',
               label: 'Email'
             }].map(({ icon: Icon, href, label }, idx) => (
               <motion.a
                 key={label}
                 href={href}
-                target={href.startsWith('http') ? '_blank' : undefined}
-                rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                initial={{
-                  scale: 0,
-                  rotate: -180
-                }}
-                animate={{
-                  scale: 1,
-                  rotate: 0
-                }}
-                transition={{
-                  delay: 1.5 + idx * 0.3,
-                  type: "spring",
-                  stiffness: 200
-                }}
-                whileTap={{
-                  scale: 0.9
-                }}
-                className="p-5 rounded-full bg-white border-2 border-[#E5ECF4] hover:border-[#8A4FFF] transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#8A4FFF]/40 group"
-                aria-label={label}
-              >
-                <Icon size={28} className="text-gray-700 group-hover:text-[#8A4FFF] transition-colors" />
-              </motion.a>
+                target="_blank"
+                rel="noopener noreferrer"
+                  initial={{
+                    scale: 0,
+                    rotate: -180
+                  }}
+                  animate={{
+                    scale: 1,
+                    rotate: 0
+                  }}
+                  transition={{
+                    delay: 1.5 + idx * 0.3,
+                    type: "spring",
+                    stiffness: 200
+                  }}
+                  whileTap={{
+                    scale: 0.9
+                  }}
+                  className="p-5 rounded-full bg-white border-2 border-[#E5ECF4] hover:border-[#8A4FFF] transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-[#8A4FFF]/40 group"
+                  aria-label={label}
+                >
+                  <Icon size={28} className="text-gray-700 group-hover:text-[#8A4FFF] transition-colors" />
+                </motion.a>
             ))}
           </motion.div>
 

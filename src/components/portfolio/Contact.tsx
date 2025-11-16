@@ -93,7 +93,9 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
             }}
           >
             <motion.a
-              href="mailto:kcparks1234@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{
                 scale: 1.1,
                 y: -5
@@ -101,7 +103,7 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
               whileTap={{
                 scale: 0.95
               }}
-              className="px-12 py-6 bg-white text-[#8A4FFF] rounded-2xl font-bold hover:shadow-2xl transition-all duration-200 flex items-center gap-3 shadow-xl"
+              className="px-12 py-6 bg-white text-[#8A4FFF] rounded-2xl font-bold hover:shadow-2xl transition-all duration-200 flex items-center gap-3 shadow-xl cursor-pointer"
             >
               <Mail size={24} />
               Send Email
@@ -193,14 +195,14 @@ export const Contact: React.FC<ContactProps> = ({ isMobile, shouldReduceMotion }
                   label: 'LinkedIn'
                 }, {
                   icon: Mail,
-                  href: 'mailto:kcparks1234@gmail.com',
+                  href: 'https://mail.google.com/mail/?view=cm&fs=1&to=kcparks1234@gmail.com',
                   label: 'Email'
                 }].map(({ icon: Icon, href, label }) => (
                   <motion.a
                     key={label}
                     href={href}
-                    target={href.startsWith('http') ? '_blank' : undefined}
-                    rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{
                       scale: 1.3,
                       y: -5,
